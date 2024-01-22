@@ -1,4 +1,7 @@
 package com.javastudies.javastudiesdemo.repositories;
 
-public class TransactionRepository {
+import com.javastudies.javastudiesdemo.domain.transaction.Transaction;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TransactionRepository extends JpaRepository<Transaction, Long> {
 }
