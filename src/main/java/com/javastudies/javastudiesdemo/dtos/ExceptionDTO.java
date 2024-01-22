@@ -1,4 +1,3 @@
 package com.javastudies.javastudiesdemo.dtos;
 
-public class ExceptionDTO {
-}
+public record ExceptionDTO(String message, String statusCode) {}
